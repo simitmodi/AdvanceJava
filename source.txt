@@ -1,0 +1,5 @@
+Java Networking Experiment 2 Question 7 Source File.
+This file is used to demonstrate UDP file transfer.
+UDP is connection-less and does not guarantee delivery.
+Data is sent in packets called Datagrams.
+Programming with Sockets is essential for network communication.
