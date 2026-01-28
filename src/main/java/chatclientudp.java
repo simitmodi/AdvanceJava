@@ -1,7 +1,6 @@
-import javax.xml.crypto.Data;
 import java.io.*;
 import java.net.*;
-import java.util.Scanner;
+import java.util.*;
 
 public class chatclientudp {
     public static void main(String[] args) throws Exception {
