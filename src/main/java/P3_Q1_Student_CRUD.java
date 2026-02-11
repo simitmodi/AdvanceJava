@@ -5,13 +5,11 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class P3_Q1_Student_CRUD {
-    // Database credentials - Update if necessary
     static final String DB_URL = "jdbc:mysql://localhost:3306/marks";
     static final String USER = "root";
     static final String PASS = "";
 
     public static void main(String[] args) throws Exception {
-        // Use the modern driver
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         Connection con = DriverManager.getConnection(DB_URL, USER, PASS);
